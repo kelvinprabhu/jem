@@ -1,0 +1,2246 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+JEM MK
+</name>
+</assembly>
+<members>
+<member name="T:JEM_MK.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:JEM_MK.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:JEM_MK.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:JEM_MK.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:JEM_MK.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:JEM_MK.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:JEM_MK.adminlog._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.adminlog._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.adminlog._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.adminup._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.adminup._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.adminup._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.adminup._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.adminup._TextBox6">
+<summary>
+TextBox6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.adminup._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advcol._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advcol._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._TextBox6">
+<summary>
+TextBox6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._Image2">
+<summary>
+Image2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.advup._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.feed._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.feed._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.gall._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.gall._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._Text">
+<summary>
+Text control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._Button4">
+<summary>
+Button4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._DataList1">
+<summary>
+DataList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.items._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.login_sign_up._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.login_sign_up._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.login_sign_up._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._ListView2">
+<summary>
+ListView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._ListView3">
+<summary>
+ListView3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._ListView4">
+<summary>
+ListView4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._ListView5">
+<summary>
+ListView5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._ListView6">
+<summary>
+ListView6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._ListView7">
+<summary>
+ListView7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._ListView8">
+<summary>
+ListView8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._SqlDataSource6">
+<summary>
+SqlDataSource6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._SqlDataSource7">
+<summary>
+SqlDataSource7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._SqlDataSource8">
+<summary>
+SqlDataSource8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._SqlDataSource2">
+<summary>
+SqlDataSource2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._SqlDataSource3">
+<summary>
+SqlDataSource3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._SqlDataSource4">
+<summary>
+SqlDataSource4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.massview._SqlDataSource5">
+<summary>
+SqlDataSource5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.pack._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.pack._DataList1">
+<summary>
+DataList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.Site1._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.Site1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.Site1._user">
+<summary>
+user control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.Site1._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.Site1._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm3._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm3._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm3._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm3._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm3._Image2">
+<summary>
+Image2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm3._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm4._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm4._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm4._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm4._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm4._DropDownList2">
+<summary>
+DropDownList2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm4._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.venderlog._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.venderlog._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.venderlog._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm11._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm11._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm11._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._Button4">
+<summary>
+Button4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm12._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._Button4">
+<summary>
+Button4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._SqlDataSource2">
+<summary>
+SqlDataSource2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm13._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._Button4">
+<summary>
+Button4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm14._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._bd">
+<summary>
+bd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._ed">
+<summary>
+ed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._TextBox6">
+<summary>
+TextBox6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._TextBox7">
+<summary>
+TextBox7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._Button5">
+<summary>
+Button5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._Button4">
+<summary>
+Button4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm15._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm16._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm16._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm16._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm16._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm16._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm16._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._TextBox8">
+<summary>
+TextBox8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._TextBox9">
+<summary>
+TextBox9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._TextBox10">
+<summary>
+TextBox10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm18._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm19aspx._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm19aspx._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm19aspx._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm19aspx._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm19aspx._TextBox8">
+<summary>
+TextBox8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm19aspx._TextBox9">
+<summary>
+TextBox9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm19aspx._TextBox10">
+<summary>
+TextBox10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm19aspx._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm19aspx._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._TextBox6">
+<summary>
+TextBox6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._TextBox8">
+<summary>
+TextBox8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._TextBox9">
+<summary>
+TextBox9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._TextBox10">
+<summary>
+TextBox10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm20._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._bd">
+<summary>
+bd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._ed">
+<summary>
+ed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._TextBox6">
+<summary>
+TextBox6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._TextBox7">
+<summary>
+TextBox7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._TextBox8">
+<summary>
+TextBox8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._Button4">
+<summary>
+Button4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm21._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._bd">
+<summary>
+bd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._ed">
+<summary>
+ed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._TextBox6">
+<summary>
+TextBox6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._TextBox7">
+<summary>
+TextBox7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._TextBox8">
+<summary>
+TextBox8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._Button4">
+<summary>
+Button4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm5._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._Button4">
+<summary>
+Button4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm6._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm7._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm7._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm7._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._TextBox9">
+<summary>
+TextBox9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._TextBox7">
+<summary>
+TextBox7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._TextBox11">
+<summary>
+TextBox11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._TextBox13">
+<summary>
+TextBox13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._TextBox14">
+<summary>
+TextBox14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._TextBox15">
+<summary>
+TextBox15 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm8._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm9._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm9._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm9._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm9._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._Button4">
+<summary>
+Button4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JEM_MK.WebForm10._ListView1">
+<summary>
+ListView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
